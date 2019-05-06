@@ -10,5 +10,7 @@ class testChatRoom extends FunSuite {
     testCR.addMessage("Gary: Really?")
     testCR.addMessage("Mary: That's Crazy")
     println(testCR.toOneString)
+    val test = testCR.messageArray
+    test.foreach((s: String)=> println(s))
   }
 }

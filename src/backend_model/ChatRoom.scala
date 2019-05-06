@@ -21,4 +21,5 @@ class ChatRoom {
     messages.foreach((s: String) => sb ++= s + delimiter)
     sb.toString()
   }
+  def messageArray: Array[String] = this.toOneString.split("~")
 }
