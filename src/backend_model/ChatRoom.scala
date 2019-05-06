@@ -2,8 +2,8 @@ package backend_model
 
 import scala.collection.mutable
 
-class Chatroom {
-  //Chatroom class will hold all messages in a linkedlist of string
+class ChatRoom {
+  // ChatRoom class will hold all messages in a linkedlist of string
   // Displaying all messages will be O(n)
   // Sending messages O(1)
   // Everyone will send their message with their username appended:
